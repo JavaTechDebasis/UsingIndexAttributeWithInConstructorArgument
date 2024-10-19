@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="robot" class="com.spring.core.beans.Robot">
+        <constructor-arg value="101" index="4"/>
+        <constructor-arg value="MyRobot" index="2"/>
+        <constructor-arg value="Automatic" index="3"/>
+        <constructor-arg value="HONDA" index="1"/>
+        <constructor-arg value="2024" index="0"/>
+    </bean>
+
+</beans>
